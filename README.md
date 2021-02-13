@@ -82,6 +82,25 @@ Output Json:
     ]
 }
 
+### ALLOWED GET
+_https://animesh-ftltask.herokuapp.com/api/loguseractivity/_
+
+**Response**
+| Status Code  | Message | data |
+| ------------- | ------------- | ------------- |
+| 200  | data | all data from model   |
+
+>  [ {
+        "user": "NIoGZO8ddfCg",
+        "start_time": "16:49:54",
+        "end_time": "16:49:55"
+    },
+    {
+        "user": "mICzwbjH3b10",
+        "start_time": "22:32:17",
+        "end_time": "07:32:17"
+    }]
+    
 ## Building
 - Used pipenv as virtual environment for development . Provided a requirement.txt file for dependency management and project installation.
 
