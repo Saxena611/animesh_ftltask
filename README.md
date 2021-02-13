@@ -12,26 +12,25 @@ Design implemented a django application with User and ActivityPeriod model , wro
 - The command returns the random user string created with output message as User "<RANDOM STRING>" Created !.
 - Sample Command : python manage.py insert_user 1
 
-
-insert_activity
-
-1. The command takes 2 argument as input i.e. user_id and number of random activity to be logged .
-2. The command populates dummy activity for the user which is based on a simple logic i.e. start_time becomes system time and end time is one hour added to system time.
-3. Sample Command : python manage.py insert_activity vqTblDpDbmqj 2
-4. Output : Random "<USER-STRING>" activity logged !.
+### insert_activity
+- The command takes 2 argument as input i.e. user_id and number of random activity to be logged .
+- The command populates dummy activity for the user which is based on a simple logic i.e. start_time becomes system time and end time is one hour added to system time.
+- Sample Command : python manage.py insert_activity vqTblDpDbmqj 2
+- Output : Random "<USER-STRING>" activity logged !.
 
 
-Model Description:
+## Model Description:
 
-User :
-1. Overriding existing user model with adding columns real_name and tz.
+### User :
+- Overriding existing user model with adding columns real_name and tz.
 
-ActivityPeriod:
-1. User as Foreign Key with user.id as reference and on_delete.CASCADE.
-2. session_date as Datefield (format : YYYY-MM-DD).
-3. start_time and end_time as TimeField (format : HH:MM:SS).
-4. session_date,start_time,end_time with constraints such as auto_now_add=False,auto_now=False so that framework does not adds corresponding system time into database.
+### ActivityPeriod:
+- User as Foreign Key with user.id as reference and on_delete.CASCADE.
+- session_date as Datefield (format : YYYY-MM-DD).
+- start_time and end_time as TimeField (format : HH:MM:SS).
+- session_date,start_time,end_time with constraints such as auto_now_add=False,auto_now=False so that framework does not adds corresponding system time into database.
 
-View & Request :
+## View & Request :
 
-1. Post
+### Post
+_https://animesh-ftltask.herokuapp.com/api/loguseractivity/_
