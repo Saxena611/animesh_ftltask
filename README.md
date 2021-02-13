@@ -38,9 +38,9 @@ _https://animesh-ftltask.herokuapp.com/api/loguseractivity/_
 > Input : {"id_list" : ["W012A3CDE", "W07QCRPA4"]}
 
 {% hint style="info" %}
-Field : id_list 
-Description: The id of user whose session activity log needs to be retrieved.
-Requried : True
+Field id_list 
+Description The id of user whose session activity log needs to be retrieved.
+Requried  True
 {% endhint %}
 
 
