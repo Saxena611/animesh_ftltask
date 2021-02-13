@@ -54,7 +54,7 @@ _https://animesh-ftltask.herokuapp.com/api/loguseractivity/_
 
  Sample Output :
  
- ![Oops ! img not found .]https://user-images.githubusercontent.com/29275475/107840996-48b5b500-6ddd-11eb-990a-47dff0688c5b.png
+ ![Oops ! img not found ](https://user-images.githubusercontent.com/29275475/107840996-48b5b500-6ddd-11eb-990a-47dff0688c5b.png)
  
 
 
