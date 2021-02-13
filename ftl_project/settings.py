@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = ')vu-wpzvhb%iq_)vs7g-1y+%zh(1w*c_&2e^+2^9@8!x@^ocp='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['animesh-ftltask.herokuapp.com','127.0.0.1']
 
 
 # Application definition
