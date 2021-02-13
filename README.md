@@ -1,16 +1,16 @@
 # BACKEND TEST - FULLTHROTTLE LABS
 
-DATABASE    - SQLite , DEPLOYMENT  - HEROKU
+_DATABASE    - SQLite , DEPLOYMENT  - HEROKU_
 
 Design implemented a django application with User and ActivityPeriod model , wrote custom management command for populating dummy data into the model and created an API to serve the same data in the required format.
 
-Custom Management Command :
+## Custom Management Command :
 
-insert_user
+### insert_user
 
-1. The command takes exactly one argument as total number of user needs to be created .
-2. The command returns the random user string created with output message as User "<RANDOM STRING>" Created !.
-3. Sample Command : python manage.py insert_user 1
+-The command takes exactly one argument as total number of user needs to be created .
+-The command returns the random user string created with output message as User "<RANDOM STRING>" Created !.
+-Sample Command : python manage.py insert_user 1
 
 
 insert_activity
