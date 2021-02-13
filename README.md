@@ -56,7 +56,7 @@ _https://animesh-ftltask.herokuapp.com/api/loguseractivity/_
  
  ![Oops ! img not found ](https://user-images.githubusercontent.com/29275475/107840996-48b5b500-6ddd-11eb-990a-47dff0688c5b.png)
  
-Output Text:
+Output Json:
 > {
     "ok": "True",
     "members": [
@@ -82,3 +82,8 @@ Output Text:
     ]
 }
 
+## Building
+- Used pipenv as virtual environment for development . Provided a requirement.txt file for dependency management and project installation.
+
+## Deploy to Heroku
+- Used heroku cli for app creation and interface to connect to github and deploy.
