@@ -34,3 +34,16 @@ Design implemented a django application with User and ActivityPeriod model , wro
 
 ### Post
 _https://animesh-ftltask.herokuapp.com/api/loguseractivity/_
+
+> Input : {"id_list" : ["W012A3CDE", "W07QCRPA4"]}
+
+{% hint style="info" %}
+Field : id_list 
+Description: The id of user whose session activity log needs to be retrieved.
+Requried : True
+{% endhint %}
+
+
+- The post method api retrives the session from the ActivityPeriod model for the provided user.
+- The api handles in case the user is not found in database. Also , does basic validation in case no user_id is provided in input.
+- Basic validation handling input provided as proper JSON. 
