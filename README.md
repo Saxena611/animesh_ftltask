@@ -8,9 +8,9 @@ Design implemented a django application with User and ActivityPeriod model , wro
 
 ### insert_user
 
--The command takes exactly one argument as total number of user needs to be created .
--The command returns the random user string created with output message as User "<RANDOM STRING>" Created !.
--Sample Command : python manage.py insert_user 1
+- The command takes exactly one argument as total number of user needs to be created .
+- The command returns the random user string created with output message as User "<RANDOM STRING>" Created !.
+- Sample Command : python manage.py insert_user 1
 
 
 insert_activity
